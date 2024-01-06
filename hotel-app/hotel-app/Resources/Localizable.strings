@@ -1,0 +1,53 @@
+/* 
+  Localizable.strings
+  hotel-app
+
+  Created by Evelina on 26.12.2023.
+  
+*/
+
+"hotelScreen.title" = "Отель";
+"hotelScreen.about" = "Об отеле";
+"hotelScreen.toRooms" = "К выбору номера";
+
+
+"statusScreen.title" = "Заказ оплачен";
+"statusScreen.buttonText" = "Супер!";
+"statusScreen.statusText" = "Ваш заказ принят в работу";
+"statusScreen.descriptionText.start" = "Подтверждение заказа №104893 может занять некоторое время (от 1 часа до суток).";
+"statusScreen.descriptionText.end" = "Как только мы получим ответ от туроператора, вам на почту придет уведомление.";
+
+
+"roomScreen.aboutRoom" = "Подробнее о номере";
+"roomScreen.chooseRoom" = "Выбрать номер";
+
+
+"bookingScreen.title" = "Бронирование";
+"bookingScreen.from" = "Вылет из";
+"bookingScreen.to" = "Страна, город";
+"bookingScreen.dates" = "Даты";
+"bookingScreen.nightsCount" = "Кол-во ночей";
+"bookingScreen.hotel" = "Отель";
+"bookingScreen.room" = "Номер";
+"bookingScreen.food" = "Питание";
+
+"bookingScreen.aboutCustomer.title" = "Информация о покупателе";
+"bookingScreen.aboutCustomer.phone" = "Номер телефона";
+"bookingScreen.aboutCustomer.email" = "Почта";
+"bookingScreen.aboutCustomer.info" = "Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту";
+
+"bookingScreen.aboutCustomer.name" = "Имя";
+"bookingScreen.aboutCustomer.surname" = "Фамилия";
+"bookingScreen.aboutCustomer.birthday" = "Дата рождения";
+"bookingScreen.aboutCustomer.citizenship" = "Гражданство";
+"bookingScreen.aboutCustomer.passportNumber" = "Номер загранпаспорта";
+"bookingScreen.aboutCustomer.passportValidityPeriod" = "Срок действия загранпаспорта";
+
+"bookingScreen.addTourist" = "Добавить туриста";
+"bookingScreen.tourist" = "турист";
+
+"bookingScreen.tour" = "Тур";
+"bookingScreen.fuelSurcharge" = "Топливный сбор";
+"bookingScreen.serviceSurcharge" = "Сервисный сбор";
+"bookingScreen.toPay" = "К оплате";
+"bookingScreen.pay" = "Оплатить";
