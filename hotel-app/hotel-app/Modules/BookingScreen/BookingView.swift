@@ -53,12 +53,14 @@ struct BookingView: View {
                 .cornerRadius(15)
                 .frame(maxWidth: .infinity)
             }
-            AddTouristView {
-                viewModel.addTourist()
+            if (viewModel.touristsNumber != TouristNumber.tenth) {
+                AddTouristView {
+                    viewModel.addTourist()
+                }
+                .background(Color.white)
+                .cornerRadius(15)
+                .frame(maxWidth: .infinity)
             }
-            .background(Color.white)
-            .cornerRadius(15)
-            .frame(maxWidth: .infinity)
             Spacer(minLength: 8)
             let data2 = [Strings.BookingScreen.tour, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.tourPrice ?? 0), Strings.BookingScreen.fuelSurcharge, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.fuelCharge ?? 0), Strings.BookingScreen.serviceSurcharge, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.serviceCharge ?? 0), Strings.BookingScreen.toPay, PriceFormatter.shared.formatPrice(price: finalPrice)]
             

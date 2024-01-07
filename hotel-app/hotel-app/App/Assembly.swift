@@ -8,7 +8,6 @@
 import Foundation
 
 protocol AssemblyProtocol {
-    var networkManager: NetworkManagerProtocol { get }
     var requestsAPIManager: RequestAPIManagerProtocol { get }
     var imageService: ImageServiceProtocol { get }
     var imageCacheManager: ImageCacheManagerProtocol { get }
@@ -16,7 +15,6 @@ protocol AssemblyProtocol {
 
 
 class Assembly: AssemblyProtocol {
-    lazy var networkManager: NetworkManagerProtocol = NetworkManager()
     lazy var requestsAPIManager: RequestAPIManagerProtocol = RequestAPIManager()
     lazy var imageService: ImageServiceProtocol = ImageService()
     lazy var imageCacheManager: ImageCacheManagerProtocol = ImageCacheManager()

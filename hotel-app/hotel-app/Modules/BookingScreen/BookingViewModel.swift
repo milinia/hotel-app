@@ -54,7 +54,7 @@ final class BookingViewModel: ObservableObject, BookingViewModelProtocol {
     @Published var bookingdata: BookingData?
     private let requestAPI: RequestAPIManagerProtocol
     private var disposables = Set<AnyCancellable>()
-    private var touristNumber = TouristNumber.first
+    @Published var touristsNumber = TouristNumber.first
     @Published var expandableViewModels = [ExpandableTouristInfoViewModel()]
     @Published var expandableTextFields: [ExpandableTouristInfoView] = []
     @Published var aboutCustomerView: AboutCustomerView = AboutCustomerView(viewModel: AboutCustomerViewModel())
@@ -62,15 +62,15 @@ final class BookingViewModel: ObservableObject, BookingViewModelProtocol {
     init(requestAPI: RequestAPIManagerProtocol) {
         self.requestAPI = requestAPI
         self.expandableViewModels = [ExpandableTouristInfoViewModel()]
-        self.expandableTextFields = [ExpandableTouristInfoView(touristNumber: touristNumber.rawValue, expandableViewModel: self.expandableViewModels[0])]
+        self.expandableTextFields = [ExpandableTouristInfoView(touristNumber: touristsNumber.rawValue, expandableViewModel: self.expandableViewModels[0])]
         self.aboutCustomerView = AboutCustomerView(viewModel: AboutCustomerViewModel())
     }
     
     func addTourist() {
         let expandableViewModel = ExpandableTouristInfoViewModel()
         expandableViewModels.append(expandableViewModel)
-        touristNumber = touristNumber.plusOne
-        expandableTextFields.append(ExpandableTouristInfoView(touristNumber: touristNumber.rawValue, expandableViewModel: expandableViewModel))
+        touristsNumber = touristsNumber.plusOne
+        expandableTextFields.append(ExpandableTouristInfoView(touristNumber: touristsNumber.rawValue, expandableViewModel: expandableViewModel))
     }
     
     func checkIfTextFieldsFilled() -> Bool {

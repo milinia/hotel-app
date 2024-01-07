@@ -13,12 +13,10 @@ protocol HotelServiceProtocol {
 }
 
 final class HotelService: HotelServiceProtocol {
-    private var networkManager: NetworkManagerProtocol
     private var requestManager: RequestAPIManagerProtocol
     private var imageService: ImageServiceProtocol
         
-    init(networkManager: NetworkManagerProtocol, requestManager: RequestAPIManagerProtocol, imageService: ImageServiceProtocol) {
-        self.networkManager = networkManager
+    init(requestManager: RequestAPIManagerProtocol, imageService: ImageServiceProtocol) {
         self.requestManager = requestManager
         self.imageService = imageService
     }
