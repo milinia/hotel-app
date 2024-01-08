@@ -83,7 +83,6 @@ struct HotelView: View {
             .frame(maxWidth: .infinity)
         }
         .background(Asset.grayCircleColor.swiftUIColor)
-//        .padding(16)
         .onAppear(perform: viewModel.fetchHotel)
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {

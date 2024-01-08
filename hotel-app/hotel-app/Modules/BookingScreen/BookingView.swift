@@ -17,7 +17,6 @@ struct BookingView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 RatingLabel(ratingNumber: String(viewModel.bookingdata?.horating ?? 0), ratingString: viewModel.bookingdata?.ratingName ?? "")
-//                    .frame(maxWidth: .infinity)
                 Text(viewModel.bookingdata?.hotelName ?? "")
                     .font(Font.custom("SF Pro Display", size: 22)
                     .weight(.medium))
@@ -41,10 +40,8 @@ struct BookingView: View {
             Spacer(minLength: 8)
             viewModel.aboutCustomerView
             .padding(.top, 8)
-//            .padding(.leading, 6)
             .cornerRadius(15)
             .background(Color.white)
-//            .frame(maxWidth: .infinity)
             ForEach(viewModel.expandableTextFields) { view in
                 VStack {
                     view
@@ -112,9 +109,3 @@ struct BookingView: View {
         return resultString
     }
 }
-
-//struct BookingView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        BookingView(viewModel: BookingViewModel(requestAPI: RequestAPIManager()))
-//    }
-//}

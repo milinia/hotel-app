@@ -48,9 +48,3 @@ struct RoomCell: View {
         }
     }
 }
-
-//struct RoomCell_Previews: PreviewProvider {
-//    static var previews: some View {
-//        RoomCell(viewModel: RoomCellViewModel(imageURLs: <#T##[String]#>, imageService: <#T##ImageServiceProtocol#>, imageCacheManager: <#T##ImageCacheManagerProtocol#>), room: RoomData(id: 1, name: "Стандартный с видом на бассейн или сад", price: 186600, pricePer: "за 7 ночей с перелётом", peculiarities: ["Все включено", "Кондиционер"], imageUrls: []), action: {})
-//    }
-//}

@@ -37,11 +37,7 @@ final class RoomViewModel: RoomViewModelProtocol, ObservableObject {
             .receive(on: DispatchQueue.main)
             .map(\.data)
             .decode(type: RoomsResponseData.self, decoder: jsonDecoder)
-            .sink { result in
-//                switch result {
-//                case .failure(let error):
-//                default: break
-//                }
+            .sink { _ in
             } receiveValue: { [weak self] roomsData in
                 self?.rooms = roomsData.rooms
             }

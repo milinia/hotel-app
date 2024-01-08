@@ -13,9 +13,15 @@ struct ImageView: View {
     var body: some View {
         ZStack {
             if let image = viewModel.image {
-                image
-                    .resizable()
-                    .scaledToFit()
+                ZStack {
+                    Asset.whiteImage.swiftUIImage
+                        .resizable()
+                        .scaledToFit()
+                    image
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 343, height: 257)
+                }
             } else if viewModel.isLoading {
                 ZStack {
                     Asset.whiteImage.swiftUIImage

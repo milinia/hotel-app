@@ -97,10 +97,7 @@ final class BookingViewModel: ObservableObject, BookingViewModelProtocol {
             .receive(on: DispatchQueue.main)
             .map(\.data)
             .decode(type: BookingData.self, decoder: jsonDecoder)
-            .sink { result in
-//                switch result {
-//                case .failure(let error):
-//                }
+            .sink { _ in
             } receiveValue: { [weak self] data in
                 self?.bookingdata = data
             }

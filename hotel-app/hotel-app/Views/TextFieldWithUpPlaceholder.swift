@@ -46,17 +46,3 @@ struct TextFieldWithUpPlaceholder: View {
         .frame(height: 52)
     }
 }
-
-//struct TextFieldWithUpPlaceholder_Previews: PreviewProvider {
-//
-//    static var previews: some View {
-//        TextFieldWithUpPlaceholder(title: "Гражданство", inputType: .asciiCapable, whereToWrite: "")
-//    }
-//}
-//
-//struct TextFieldWithUpPlaceholder2_Previews: PreviewProvider {
-//
-//    static var previews: some View {
-//        TextFieldWithUpPlaceholder(title: "Номер телефона", inputType: .phonePad, whereToWrite: "")
-//    }
-//}

@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-//final class ImageCarouselViewModel: ObservableObject {
-//    @Published var currentImageIndex = 0
-//}
-
 struct ImageCarouselView: View {
     @State private var currentImageIndex = 0
     let images: [ImageView]
@@ -56,9 +52,3 @@ struct ImageCarouselView: View {
         }
     }
 }
-
-//struct ImageCarouselView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ImageCarouselView(images: [])
-//    }
-//}
