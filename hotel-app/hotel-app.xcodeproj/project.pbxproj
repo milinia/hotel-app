@@ -216,6 +216,18 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		E518BCFA2B4C068900ACF419 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E5B324B12B49DAE500994435 /* AboutCustomerView.swift */,
+				E5BE681D2B42B2A500BB59BB /* TextFieldsView.swift */,
+				E5AC0DA42B456415004A0678 /* TwoColumnView.swift */,
+				E5B324AD2B497F6200994435 /* AddTouristView.swift */,
+				E54CA6B02B41B6F700922D88 /* ExpandableTouristInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E54CA6AB2B41951A00922D88 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,14 +302,10 @@
 		E59AC1512B39D3590089F2AE /* BookingScreen */ = {
 			isa = PBXGroup;
 			children = (
-				E5B324B12B49DAE500994435 /* AboutCustomerView.swift */,
+				E518BCFA2B4C068900ACF419 /* Views */,
 				E59AC15D2B39D4B90089F2AE /* BookingViewModel.swift */,
-				E54CA6AE2B41B5A200922D88 /* BookingView.swift */,
-				E54CA6B02B41B6F700922D88 /* ExpandableTouristInfoView.swift */,
-				E5BE681D2B42B2A500BB59BB /* TextFieldsView.swift */,
-				E5AC0DA42B456415004A0678 /* TwoColumnView.swift */,
 				E5B324A92B48841E00994435 /* TextFieldsViewModel.swift */,
-				E5B324AD2B497F6200994435 /* AddTouristView.swift */,
+				E54CA6AE2B41B5A200922D88 /* BookingView.swift */,
 			);
 			path = BookingScreen;
 			sourceTree = "<group>";

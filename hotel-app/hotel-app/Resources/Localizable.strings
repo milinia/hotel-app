@@ -34,7 +34,7 @@
 "bookingScreen.aboutCustomer.title" = "Информация о покупателе";
 "bookingScreen.aboutCustomer.phone" = "Номер телефона";
 "bookingScreen.aboutCustomer.email" = "Почта";
-"bookingScreen.aboutCustomer.info" = "Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту";
+"bookingScreen.aboutCustomer.info" = "Эти данные никому не передаются. После оплаты мы вышлем чек на указанный вами номер и почту";
 
 "bookingScreen.aboutCustomer.name" = "Имя";
 "bookingScreen.aboutCustomer.surname" = "Фамилия";

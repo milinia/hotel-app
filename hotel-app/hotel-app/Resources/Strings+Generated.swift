@@ -48,8 +48,8 @@ internal enum Strings {
       internal static let citizenship = Strings.tr("Localizable", "bookingScreen.aboutCustomer.citizenship", fallback: "Гражданство")
       /// Почта
       internal static let email = Strings.tr("Localizable", "bookingScreen.aboutCustomer.email", fallback: "Почта")
-      /// Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту
-      internal static let info = Strings.tr("Localizable", "bookingScreen.aboutCustomer.info", fallback: "Эти данные никому не передаются. После оплаты мы вышли чек на указанный вами номер и почту")
+      /// Эти данные никому не передаются. После оплаты мы вышлем чек на указанный вами номер и почту
+      internal static let info = Strings.tr("Localizable", "bookingScreen.aboutCustomer.info", fallback: "Эти данные никому не передаются. После оплаты мы вышлем чек на указанный вами номер и почту")
       /// Имя
       internal static let name = Strings.tr("Localizable", "bookingScreen.aboutCustomer.name", fallback: "Имя")
       /// Номер загранпаспорта

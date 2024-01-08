@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct RoomCell: View {
-    
     @StateObject var viewModel: RoomCellViewModel
     let room: RoomData
     let action: () -> Void

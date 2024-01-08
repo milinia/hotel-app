@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ImageView: View {
-    @StateObject var viewModel: ImageViewModel
+    @ObservedObject var viewModel: ImageViewModel
     
     var body: some View {
         ZStack {
@@ -23,7 +23,7 @@ struct ImageView: View {
                         .scaledToFit()
                     ProgressView()
                 }
-            } else {
+            } else if viewModel.isError {
                 ZStack {
                     Asset.whiteImage.swiftUIImage
                         .resizable()

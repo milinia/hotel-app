@@ -38,6 +38,10 @@ final class ImageViewModel: ObservableObject, ImageViewModelProtocol {
                 .receive(on: DispatchQueue.main)
                 .sink { [weak self] res in
                     self?.isLoading = false
+                    switch res {
+                    case .failure(_): self?.isError = true
+                    case .finished: break
+                    }
                 } receiveValue: { [weak self] image in
                     self?.image = Image(uiImage: UIImage(data: image) ?? UIImage())
                     self?.imageCacheManager.setImage(object: image, forKey: self?.imageURL ?? "")

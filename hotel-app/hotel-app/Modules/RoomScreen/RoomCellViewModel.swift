@@ -22,9 +22,8 @@ final class RoomCellViewModel: ObservableObject {
     }
     
     private func makeImage(urls: [String]) {
-        let images = urls.map({
-            ImageView(viewModel: ImageViewModel(imageURL: $0, imageService: self.imageService, imageCacheManager: self.imageCacheManager))
-        })
-        self.images = images
+        urls.forEach { url in
+            self.images.append(ImageView(viewModel: ImageViewModel(imageURL: url, imageService: self.imageService, imageCacheManager: self.imageCacheManager)))
+        }
     }
 }
