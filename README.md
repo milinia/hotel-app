@@ -9,5 +9,5 @@
 
 ### Скринкаст
 
-https://github.com/milinia/hotel-app/assets/57720564/4c3bde3d-7e4a-4872-aff1-e3c9031dca0a
+https://github.com/milinia/hotel-app/assets/57720564/f5a805aa-81e7-41ab-a562-6d86bce923b2
 
