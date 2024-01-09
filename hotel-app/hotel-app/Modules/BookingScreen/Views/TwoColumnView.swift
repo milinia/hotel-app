@@ -18,13 +18,9 @@ struct TwoColumnView: View {
     
     var body: some View {
         LazyVGrid(columns: columns, alignment: .leading) {
-            ForEach(Array(data.enumerated()), id: \.1) { (index, text) in
-                if (index % 2 == 0) {
-                    Text(text)
-                        .foregroundColor(Asset.grayTextColor.swiftUIColor)
-                } else {
-                    Text(text)
-                }
+            ForEach(data.indices, id: \.self) { index in
+                Text(data[index])
+                    .foregroundColor(index % 2 == 0 ? Asset.grayTextColor.swiftUIColor : Color.black)
             }
         }
         .frame(maxWidth: .infinity)

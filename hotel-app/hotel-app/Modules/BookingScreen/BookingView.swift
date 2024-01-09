@@ -13,7 +13,7 @@ struct BookingView: View {
     @Environment(\.dismiss) private var dismiss
     
     var body: some View {
-        let finalPrice = (viewModel.bookingdata?.fuelCharge ?? 0) + (viewModel.bookingdata?.serviceCharge ?? 0) + (viewModel.bookingdata?.tourPrice ?? 0)
+        let finalPrice = sumPrices()
         ScrollView {
             VStack(alignment: .leading) {
                 RatingLabel(ratingNumber: String(viewModel.bookingdata?.horating ?? 0), ratingString: viewModel.bookingdata?.ratingName ?? "")
@@ -31,10 +31,11 @@ struct BookingView: View {
             .cornerRadius(15)
             .background(Color.white)
             Spacer(minLength: 8)
-            let data = [Strings.BookingScreen.from, viewModel.bookingdata?.departure ?? "", Strings.BookingScreen.to, viewModel.bookingdata?.arrivalCountry ?? "", Strings.BookingScreen.dates, uniteTwoDates(s1: viewModel.bookingdata?.tourDateStart, s2: viewModel.bookingdata?.tourDateStop),
-                        Strings.BookingScreen.nightsCount, String(viewModel.bookingdata?.numberOfNights ?? 0), Strings.BookingScreen.hotel, viewModel.bookingdata?.hotelName ?? "", Strings.BookingScreen.room, viewModel.bookingdata?.room ?? "", Strings.BookingScreen.food, viewModel.bookingdata?.nutrition ?? ""]
-            TwoColumnView(data: data)
-                .padding(16)
+            let tourData = getTourDataArray()
+            TwoColumnView(data: tourData)
+                .padding(.vertical, 16)
+                .padding(.leading, 16)
+                .padding(.trailing, 10)
                 .cornerRadius(15)
                 .background(Color.white)
             Spacer(minLength: 8)
@@ -59,12 +60,11 @@ struct BookingView: View {
                 .frame(maxWidth: .infinity)
             }
             Spacer(minLength: 8)
-            let data2 = [Strings.BookingScreen.tour, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.tourPrice ?? 0), Strings.BookingScreen.fuelSurcharge, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.fuelCharge ?? 0), Strings.BookingScreen.serviceSurcharge, PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.serviceCharge ?? 0), Strings.BookingScreen.toPay, PriceFormatter.shared.formatPrice(price: finalPrice)]
-            
-            TwoColumnView(data: data2)
+            let priceData = getPricesDataArray(finalPrice: finalPrice)
+            TwoColumnView(data: priceData)
                 .frame(maxWidth: .infinity)
+                .padding(20)
                 .cornerRadius(15)
-                .padding(16)
                 .background(Color.white)
             VStack {
                 Divider()
@@ -101,10 +101,46 @@ struct BookingView: View {
         }
     }
     
+    private func getTourDataArray() -> [String] {
+        return [Strings.BookingScreen.from,
+                viewModel.bookingdata?.departure ?? "",
+                Strings.BookingScreen.to,
+                viewModel.bookingdata?.arrivalCountry ?? "",
+                Strings.BookingScreen.dates,
+                uniteTwoDates(s1: viewModel.bookingdata?.tourDateStart, s2: viewModel.bookingdata?.tourDateStop),
+                Strings.BookingScreen.nightsCount,
+                String(viewModel.bookingdata?.numberOfNights ?? 0),
+                Strings.BookingScreen.hotel,
+                viewModel.bookingdata?.hotelName ?? "",
+                Strings.BookingScreen.room,
+                viewModel.bookingdata?.room ?? "",
+                Strings.BookingScreen.food,
+                viewModel.bookingdata?.nutrition ?? ""]
+    }
+    
+    private func getPricesDataArray(finalPrice: Int) -> [String] {
+        return [Strings.BookingScreen.tour,
+                PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.tourPrice ?? 0),
+                Strings.BookingScreen.fuelSurcharge,
+                PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.fuelCharge ?? 0),
+                Strings.BookingScreen.serviceSurcharge,
+                PriceFormatter.shared.formatPrice(price: viewModel.bookingdata?.serviceCharge ?? 0),
+                Strings.BookingScreen.toPay,
+                PriceFormatter.shared.formatPrice(price: finalPrice)]
+    }
+    
+    private func sumPrices() -> Int {
+        let fuelPrice: Int = viewModel.bookingdata?.fuelCharge ?? 0
+        let servicePrice: Int = viewModel.bookingdata?.serviceCharge ?? 0
+        let tourPrice: Int = viewModel.bookingdata?.tourPrice ?? 0
+        return fuelPrice + servicePrice + tourPrice
+        
+    }
+    
     private func uniteTwoDates(s1: String?, s2: String?) -> String {
         var resultString = ""
         resultString += s1 ?? ""
-        resultString += " - "
+        resultString += "-"
         resultString += s2 ?? ""
         return resultString
     }

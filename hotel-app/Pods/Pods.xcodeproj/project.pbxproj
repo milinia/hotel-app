@@ -15,29 +15,17 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		04BCCDB9CB9631EEC3831BB95AE952B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		16D3980985F012CD9056E2AF77DC3C95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		18ADECBF49119B00BA34D9AD96D281A4 /* Pods-hotel-appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D015B7E6D7CA0E6A08294CB637EA4372 /* Pods-hotel-appTests-dummy.m */; };
 		3CD1BE1EBB66120405E763DA946E4AE6 /* Pods-hotel-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F09C72F471A7A9A97113D0E40D15FE9 /* Pods-hotel-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C55AD367739683F2D4C2145CC423720 /* Pods-hotel-app-hotel-appUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4E70B4622594FE6AE5D028C5E0DFF3 /* Pods-hotel-app-hotel-appUITests-dummy.m */; };
-		667A61D6BC515ED77281893EA8262C07 /* Pods-hotel-app-hotel-appUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D7AC7DAF7AD7A5FF5ECE55806B77A8 /* Pods-hotel-app-hotel-appUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3EDDA2F57BF352FCC86CE6102B2F121 /* Pods-hotel-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D51AC78FF08A9881FA782792464E87 /* Pods-hotel-app-dummy.m */; };
-		B901F69231C0B67E783CC8ED974D6676 /* Pods-hotel-appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 021574A8F43C774C19152DF0F4CDD9C3 /* Pods-hotel-appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4B784D1FCA104B7BCDA3F1C676DD73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A6324519A2EE73A4FF0D503B65DF31C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
-			remoteInfo = SwiftGen;
-		};
 		370497E9D1F9BCAFB557F0338D354802 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -45,21 +33,12 @@
 			remoteGlobalIDString = 1E798429DCFA7906F6625CCFC1088744;
 			remoteInfo = SwiftGen;
 		};
-		F5F2798A42AE785826280FC2B4935684 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5905DEBB1B11157A1FB5D87CF22E30F1;
-			remoteInfo = "Pods-hotel-app";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		021574A8F43C774C19152DF0F4CDD9C3 /* Pods-hotel-appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-hotel-appTests-umbrella.h"; sourceTree = "<group>"; };
 		06ADFA31893588063E50F29E3003E528 /* Pods-hotel-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hotel-appTests.release.xcconfig"; sourceTree = "<group>"; };
-		0A614F1161DC696FED9B9E686BFC240D /* Pods-hotel-appTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hotel-appTests"; path = Pods_hotel_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CEE4616CFA763E25C66C33FB257E18 /* Pods-hotel-appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hotel-appTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1B87EB549B63A94F8FB3FF476A92D1B8 /* Pods-hotel-app-hotel-appUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hotel-app-hotel-appUITests"; path = Pods_hotel_app_hotel_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29CA8A66ED8EEA9074F1B7DDC5E9EE3C /* Pods-hotel-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hotel-appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		37982D7B951A9E8D1767D0A1A07AEB23 /* Pods-hotel-appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-hotel-appTests.modulemap"; sourceTree = "<group>"; };
 		417BAC202E35B03D9C8D7C225A0524FB /* Pods-hotel-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-hotel-app-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -73,7 +52,7 @@
 		8CE27F6D04F64C2120C0487FEC8CF039 /* Pods-hotel-app */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-hotel-app"; path = Pods_hotel_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8ED37F32D834FFF5DFE3B005200B35F2 /* Pods-hotel-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hotel-app.release.xcconfig"; sourceTree = "<group>"; };
 		942F2DC6D30C493686AD35BCFC7C7D48 /* Pods-hotel-app-hotel-appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-hotel-app-hotel-appUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA4E70B4622594FE6AE5D028C5E0DFF3 /* Pods-hotel-app-hotel-appUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-hotel-app-hotel-appUITests-dummy.m"; sourceTree = "<group>"; };
 		B4263489E673801EC37C1F15D4E531D8 /* SwiftGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftGen.release.xcconfig; sourceTree = "<group>"; };
 		B71814B22E78DB0033C190AD0D742B1F /* Pods-hotel-app-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-hotel-app-Info.plist"; sourceTree = "<group>"; };
@@ -94,22 +73,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE4B784D1FCA104B7BCDA3F1C676DD73 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4B4B00FBD099040E9F3AC724BEECC3AD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				04BCCDB9CB9631EEC3831BB95AE952B8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		988BF8C154BA2EFEEB6B2493135DDD4A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16D3980985F012CD9056E2AF77DC3C95 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,7 +116,6 @@
 			children = (
 				AB4F699EB2CE4C63CBA1FEFDD0861DAA /* Support Files */,
 			);
-			name = SwiftGen;
 			path = SwiftGen;
 			sourceTree = "<group>";
 		};
@@ -222,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				8CE27F6D04F64C2120C0487FEC8CF039 /* Pods-hotel-app */,
-				1B87EB549B63A94F8FB3FF476A92D1B8 /* Pods-hotel-app-hotel-appUITests */,
-				0A614F1161DC696FED9B9E686BFC240D /* Pods-hotel-appTests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -249,44 +209,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		54CB37175FF4A098F1A878C2A13C943D /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B901F69231C0B67E783CC8ED974D6676 /* Pods-hotel-appTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C39CF8EE7E9F160461BD33B17A6CA86C /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				667A61D6BC515ED77281893EA8262C07 /* Pods-hotel-app-hotel-appUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19E02DD0FB991A26272AE34B473D8375 /* Pods-hotel-app-hotel-appUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AAF70F3F62B5664E61DDC5F7B0679262 /* Build configuration list for PBXNativeTarget "Pods-hotel-app-hotel-appUITests" */;
-			buildPhases = (
-				C39CF8EE7E9F160461BD33B17A6CA86C /* Headers */,
-				8464CB97CA9B10F59560D9A8596CB148 /* Sources */,
-				988BF8C154BA2EFEEB6B2493135DDD4A /* Frameworks */,
-				F2065A92D1ED55A620B145E025C844BA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				AD4666C40F2B7778C3A6FDCB592C56E5 /* PBXTargetDependency */,
-			);
-			name = "Pods-hotel-app-hotel-appUITests";
-			productName = Pods_hotel_app_hotel_appUITests;
-			productReference = 1B87EB549B63A94F8FB3FF476A92D1B8 /* Pods-hotel-app-hotel-appUITests */;
-			productType = "com.apple.product-type.framework";
-		};
 		5905DEBB1B11157A1FB5D87CF22E30F1 /* Pods-hotel-app */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F374769C7B6A7707F9AB1F7FF8A4C0D8 /* Build configuration list for PBXNativeTarget "Pods-hotel-app" */;
@@ -306,25 +231,6 @@
 			productReference = 8CE27F6D04F64C2120C0487FEC8CF039 /* Pods-hotel-app */;
 			productType = "com.apple.product-type.framework";
 		};
-		BA709718BAE37E4D055F315104203689 /* Pods-hotel-appTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C471E61058BD0D9545B8362A7073CFFF /* Build configuration list for PBXNativeTarget "Pods-hotel-appTests" */;
-			buildPhases = (
-				54CB37175FF4A098F1A878C2A13C943D /* Headers */,
-				D2DA6899352FF1EA23182A765586F7C8 /* Sources */,
-				4B4B00FBD099040E9F3AC724BEECC3AD /* Frameworks */,
-				F7CD1116E363649AABB8F74406B7DCED /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4521709AC5466FC866C34CB77BC7FF88 /* PBXTargetDependency */,
-			);
-			name = "Pods-hotel-appTests";
-			productName = Pods_hotel_appTests;
-			productReference = 0A614F1161DC696FED9B9E686BFC240D /* Pods-hotel-appTests */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -332,7 +238,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -348,8 +254,6 @@
 			projectRoot = "";
 			targets = (
 				5905DEBB1B11157A1FB5D87CF22E30F1 /* Pods-hotel-app */,
-				19E02DD0FB991A26272AE34B473D8375 /* Pods-hotel-app-hotel-appUITests */,
-				BA709718BAE37E4D055F315104203689 /* Pods-hotel-appTests */,
 				1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */,
 			);
 		};
@@ -363,39 +267,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2065A92D1ED55A620B145E025C844BA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F7CD1116E363649AABB8F74406B7DCED /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8464CB97CA9B10F59560D9A8596CB148 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4C55AD367739683F2D4C2145CC423720 /* Pods-hotel-app-hotel-appUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D2DA6899352FF1EA23182A765586F7C8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				18ADECBF49119B00BA34D9AD96D281A4 /* Pods-hotel-appTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D5196BBFA7E1831DBCCB783ECF5E88CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,18 +281,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4521709AC5466FC866C34CB77BC7FF88 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-hotel-app";
-			target = 5905DEBB1B11157A1FB5D87CF22E30F1 /* Pods-hotel-app */;
-			targetProxy = F5F2798A42AE785826280FC2B4935684 /* PBXContainerItemProxy */;
-		};
-		AD4666C40F2B7778C3A6FDCB592C56E5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SwiftGen;
-			target = 1E798429DCFA7906F6625CCFC1088744 /* SwiftGen */;
-			targetProxy = 1A6324519A2EE73A4FF0D503B65DF31C /* PBXContainerItemProxy */;
-		};
 		F050B9DA3E3284AF43FE72776D19EDA6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftGen;
@@ -434,7 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,6 +378,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -544,43 +407,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		5095B63970BCF28C7D101245C82C5F6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 443AAA7B819F03307A38BBC5947FD210 /* Pods-hotel-app-hotel-appUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hotel-app-hotel-appUITests/Pods-hotel-app-hotel-appUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hotel-app-hotel-appUITests/Pods-hotel-app-hotel-appUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -619,6 +445,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -645,119 +472,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		7EDD90E735F926C90E2629C6638DA7E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06ADFA31893588063E50F29E3003E528 /* Pods-hotel-appTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hotel-appTests/Pods-hotel-appTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hotel-appTests/Pods-hotel-appTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A16408656E6B780FFD52561E0A0C65CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 942F2DC6D30C493686AD35BCFC7C7D48 /* Pods-hotel-app-hotel-appUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hotel-app-hotel-appUITests/Pods-hotel-app-hotel-appUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hotel-app-hotel-appUITests/Pods-hotel-app-hotel-appUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A8670A178C66220F3CBB05B12A2492CF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29CA8A66ED8EEA9074F1B7DDC5E9EE3C /* Pods-hotel-appTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-hotel-appTests/Pods-hotel-appTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-hotel-appTests/Pods-hotel-appTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		A958A6686CAB4C301242C83982575A5E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -803,7 +517,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -822,24 +536,6 @@
 			buildConfigurations = (
 				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
 				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAF70F3F62B5664E61DDC5F7B0679262 /* Build configuration list for PBXNativeTarget "Pods-hotel-app-hotel-appUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5095B63970BCF28C7D101245C82C5F6F /* Debug */,
-				A16408656E6B780FFD52561E0A0C65CA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C471E61058BD0D9545B8362A7073CFFF /* Build configuration list for PBXNativeTarget "Pods-hotel-appTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8670A178C66220F3CBB05B12A2492CF /* Debug */,
-				7EDD90E735F926C90E2629C6638DA7E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
